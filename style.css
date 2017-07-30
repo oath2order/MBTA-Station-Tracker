@@ -1,0 +1,19 @@
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0}
+
+nav.navbar {  margin-bottom: 0px; }
+#map-canvas {
+ height: 100%;
+ width: 100%;
+} 
+
+#map-canvas .waiting { 
+   padding: 3em; 
+   font-size: 140%;
+   color: #DDD;
+ }
+
+#map-canvas .waiting img { 
+   opacity: 0.5;
+   margin-right: 1em; 
+}

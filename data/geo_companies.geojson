@@ -1,0 +1,230 @@
+{
+  "type": "FeatureCollection", 
+  "features": [
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.08878, 
+          42.363507
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Broad Institute", 
+        "marker-symbol": "marker-stroked", 
+        "address": "415 Main St., Cambridge, MA 02142"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.0905221, 
+          42.364543
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Draper Labs", 
+        "marker-symbol": "marker-stroked", 
+        "address": "555 Technology Square, Cambridge, MA 02139"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.14735, 
+          42.37544
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Charles River Analytics", 
+        "marker-symbol": "marker-stroked", 
+        "address": "625 Mt Auburn St # 3, Cambridge, MA 02138"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.35576309999999, 
+          42.3021524
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Cognex", 
+        "marker-symbol": "marker-stroked", 
+        "address": "One Vision Drive, Natick, MA 01760"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.24379739999999, 
+          42.5045604
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "iRobot", 
+        "marker-symbol": "marker-stroked", 
+        "address": "8 Crosby Drive, Bedford, MA 01730"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.2631483, 
+          42.4602491
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Lincoln Labs", 
+        "marker-symbol": "marker-stroked", 
+        "address": "244 Wood St, Lexington, MA 02421"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.3503486, 
+          42.30008
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Mathworks", 
+        "marker-symbol": "marker-stroked", 
+        "address": "3 Apple Hill Dr, Natick, MA 01760"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.2824031, 
+          42.405899
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Raytheon", 
+        "marker-symbol": "marker-stroked", 
+        "address": "870 Winter Street, Waltham, MA 02451"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.0816306, 
+          42.3622387
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Amazon", 
+        "marker-symbol": "marker-stroked", 
+        "address": "101 Main St, Cambridge, MA 02142"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.0872863, 
+          42.36354499999999
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Aurora Flight Sciences", 
+        "marker-symbol": "marker-stroked", 
+        "address": "4 Cambridge Center, Cambridge, MA 02142"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.26172009999999, 
+          42.4439992
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "BAE", 
+        "marker-symbol": "marker-stroked", 
+        "address": "2 Forbes Rd, Lexington, MA"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.1321044, 
+          42.5553598
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Kiva", 
+        "marker-symbol": "marker-stroked", 
+        "address": "300 Riverpark Dr, North Reading, MA 01864"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.303651, 
+          42.563417
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "FLIR", 
+        "marker-symbol": "marker-stroked", 
+        "address": "25 Esquire Rd, North Billerica, MA"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.0871174, 
+          42.3627388
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Google", 
+        "marker-symbol": "marker-stroked", 
+        "address": "355 Main Street, Cambridge, MA 02142"
+      }
+    }, 
+    {
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [
+          -71.414287, 
+          42.571374
+        ]
+      }, 
+      "type": "Feature", 
+      "properties": {
+        "name": "Nvidia", 
+        "marker-symbol": "marker-stroked", 
+        "address": "2 Technology Park Drive, Westford, MA 01886"
+      }
+    }
+  ]
+}
