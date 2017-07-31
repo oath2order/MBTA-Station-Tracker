@@ -1,4 +1,4 @@
-var RED_ICON = 'http://labs.google.com/ridefinder/images/mm_20_red.png';
+var RED_ICON = 'https://labs.google.com/ridefinder/images/mm_20_red.png';
 var INITIAL_ZOOM = 14;
 var TRAIN_MARKERS = [];
 var MY_MARKER = null;
@@ -230,7 +230,7 @@ function drawStopMarker(lat, lng, title) {
     });
 }
 function renderArrival(stop){
-  var endpoint = "http://realtime.mbta.com/developer/api/v2/predictionsbystop?api_key=dLQxHTh91UuZU7ks7OLwMQ&stop=" + stop;
+  var endpoint = "https://realtime.mbta.com/developer/api/v2/predictionsbystop?api_key=dLQxHTh91UuZU7ks7OLwMQ&stop=" + stop;
     $.get(endpoint).done(function(predictions) {
     stopLoop(predictions);
     console.log(predictions.mode.length);
