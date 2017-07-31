@@ -137,6 +137,8 @@ function getTrainIcon(bearing, route_id, route_type, zoom) {
         arrow.scale = arrow.scale * .75;
     }
     return arrow;
+}
+
 // wait till map is loaded, then draw marker
 function drawTrainMarker(lat, lng, title, bearing, route_id, route_type) {
     var map_loader = $(document).data('MAP_P');
@@ -190,16 +192,18 @@ function deleteMarkers() {
     TRAIN_MARKERS = [];
 }
 
-
-//Modifications to code for PREDICTION BY STOP analysis begin here
+//Modified Code begins here
 function trainStopMarker(response) {
   for (e = 0; e < response.direction[0].stop.length; e++) {
       var lat = parseFloat(response.direction[0].stop[e].stop_lat);
       var lon = parseFloat(response.direction[0].stop[e].stop_lon)
       var title = response.direction[0].stop[e].parent_station;
-      if(title != ""){drawStopMarker(lat, lon, title);}    
+      if(title != ""){drawStopMarker(lat, lon, title);}
+      
   }
 }
+
+
 function drawStopMarker(lat, lng, title) {
     var map_loader = $(document).data('MAP_P');
     map_loader.done(function() {
@@ -229,6 +233,7 @@ function renderArrival(stop){
   var endpoint = "http://realtime.mbta.com/developer/api/v2/predictionsbystop?api_key=dLQxHTh91UuZU7ks7OLwMQ&stop=" + stop;
     $.get(endpoint).done(function(predictions) {
     stopLoop(predictions);
+    console.log(predictions.mode.length);
   }); 
 }
 

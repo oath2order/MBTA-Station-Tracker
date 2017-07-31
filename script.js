@@ -93,6 +93,7 @@ function plot_one_route(route){
 	       };
   var url = get_mbta_api_url('predictionsbyroute', params);
   $.getJSON(url).always(handle_api);
+  //modification of code to add stations
   var url = get_mbta_api_url('stopsbyroute', params);
   $.getJSON(url).always(handle_api);
 }
