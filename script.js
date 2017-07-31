@@ -1,5 +1,5 @@
 MBTA_API_KEY = 'dLQxHTh91UuZU7ks7OLwMQ';
-MBTA_API_URL = 'http://realtime.mbta.com/developer/api/v2/';
+MBTA_API_URL = 'https://realtime.mbta.com/developer/api/v2/';
 
 DEFAULT_ROUTE = 'All';
 
