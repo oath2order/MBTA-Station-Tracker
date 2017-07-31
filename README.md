@@ -1,4 +1,4 @@
-This is a modification of of a program that tracks the position of train movements for the MBTA. I have added a feature that tracks stops for all lines, and advises of when the next train will arrive at a given stop. 
+This is a modification of a program that tracks the position of train movements for the MBTA. I have added a feature that tracks stops for all lines, and advises of when the next train will arrive at a given stop. 
 
 To Do: 
 -Add Alerts for any stations that are currently shut down
