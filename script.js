@@ -29,7 +29,7 @@ ROUTES = { 'All': {name: 'All'},
 
 // MAP_P is a promise that waits for the map to be loaded.
 // When map is loaded, store it in document.MAP
-MAP_P = $.Deferred().done(init_map);
+MAP_P = $.Deferred().done(init_map_script);
 $(document).data('MAP_P', MAP_P);
 
 $(document).ready(function(){
@@ -38,7 +38,7 @@ $(document).ready(function(){
 		    $('#routes').change(plot_mbta);
 		    plot_mbta();});
 
-function init_map(map){
+function init_map_script(map){
   $(document).data('MAP', map);
 }
 
